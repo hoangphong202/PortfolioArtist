@@ -1,0 +1,147 @@
+/* ===========================
+   DEVELOPER CARDS
+=========================== */
+.devContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 40px 190px;
+}
+
+.card {
+  background: #121212;
+  border: 2px solid #00ffff33;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 300px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px #00ffbf;
+  border-color: #00ffbf;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.cardContent {
+  padding: 20px;
+  text-align: left;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.tagRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #00ffff22;
+  border: 1px solid #00ffff44;
+  color: #00ffbf;
+  border-radius: 8px;
+  padding: 3px 10px;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.tag:hover {
+  background: #00ffff44;
+  color: #fff;
+}
+
+/* ===========================
+   RESPONSIVE STYLES
+=========================== */
+
+/* Tablet / small desktop */
+@media screen and (max-width: 1024px) {
+  .devContainer {
+    padding: 40px 60px;
+    gap: 25px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .imageWrapper {
+    height: 160px;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardDesc {
+    font-size: 0.85rem;
+  }
+
+  .tag {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .devContainer {
+    padding: 20px 15px;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .imageWrapper {
+    height: 140px;
+  }
+
+  .cardTitle {
+    font-size: 0.95rem;
+  }
+
+  .cardDesc {
+    font-size: 0.8rem;
+  }
+
+  .tag {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+}

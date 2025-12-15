@@ -1,0 +1,174 @@
+/* ======================= */
+/*        ABOUT BASE       */
+/* ======================= */
+
+.about_section {
+  background-color: #000;
+  color: #fff;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/* Layout tổng */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ======================= */
+/*        IMAGE            */
+/* ======================= */
+
+.image_wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 320px;
+  height: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 0 25px #00ffbf;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.03);
+}
+
+/* ======================= */
+/*        TEXT AREA        */
+/* ======================= */
+
+.text_content {
+  flex: 2;
+  max-width: 600px;
+}
+
+.hello {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.hello span {
+  color: #00ffbf;
+}
+
+.text_content p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+  color: #ccc;
+  font-size: 17px;
+}
+
+/* ======================= */
+/*        BUTTONS          */
+/* ======================= */
+
+.btn_group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.cv_btn {
+  background: transparent;
+  border: 2px solid #00ffbf;
+  color: #00ffbf;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s, color 0.2s;
+}
+
+.cv_btn:hover {
+  background: rgba(0, 255, 191, 0.1);
+  transform: translateY(-2px);
+}
+
+.github_icon {
+  font-size: 28px;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.github_icon:hover {
+  transform: scale(1.1);
+}
+
+/* ======================= */
+/*        RESPONSIVE       */
+/* ======================= */
+
+/* Tablet ngang (1024px ↓) */
+@media (max-width: 1024px) {
+  .container {
+    gap: 40px;
+  }
+
+  .image {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* Tablet đứng + Mobile lớn (768px ↓) */
+@media (max-width: 768px) {
+  .about_section {
+    padding: 70px 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text_content {
+    text-align: center;
+  }
+
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .btn_group {
+    justify-content: center;
+  }
+}
+
+/* Mobile nhỏ (480px ↓) */
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .hello {
+    font-size: 20px;
+  }
+
+  .text_content p {
+    font-size: 15px;
+  }
+
+  .image {
+    width: 210px;
+    height: 210px;
+  }
+}

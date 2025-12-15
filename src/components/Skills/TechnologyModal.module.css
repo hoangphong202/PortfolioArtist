@@ -1,0 +1,131 @@
+.techModal {
+  background-color: #0f0f0f;
+  border: 2px solid #00ffc8;
+  border-radius: 20px;
+
+  width: 800px;
+  padding: 30px 40px;
+  color: #fff;
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.3);
+  animation: scaleIn 0.3s ease-in-out;
+}
+
+.imgLogo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Header */
+.modalHeaderAll {
+  position: relative;
+}
+
+.modalHeaderAll .closeBtn {
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+.techTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.techTitle h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.techIcon {
+  color: #00ffc8;
+  font-size: 2rem;
+}
+
+.modalDivider {
+  border: none;
+  border-top: 1px solid #00ffc8;
+  margin: 15px 0 20px;
+}
+
+.techSection {
+  position: relative;
+}
+
+/* Section Title */
+.techSection h3 {
+  text-align: left;
+  color: #00ffc8;
+  margin-bottom: 10px;
+}
+
+.iconGrid > div > svg {
+  width: 40px; /* bằng với imgLogo */
+  height: 40px;
+}
+
+/* Icon grid */
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* tối đa 5 icon 1 hàng */
+  gap: 20px;
+}
+.iconGrid > div {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.iconGrid div:hover {
+  transform: scale(1.1);
+}
+
+.iconGrid p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+/* Close Button */
+.closeBtn {
+  font-size: 2.8rem;
+  color: #ff4d4d;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.closeBtn:hover {
+  transform: rotate(90deg);
+  color: #ff0000;
+}
+
+/* Overlay */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
+
+  z-index: 1000;
+}
+
+/* Animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

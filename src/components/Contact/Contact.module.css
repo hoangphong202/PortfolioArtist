@@ -1,0 +1,169 @@
+.contactSection {
+  padding: 50px 20px;
+  background: #0d0d0d;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+/* Container info + form */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Info section */
+.info {
+  flex: 1 1 350px; /* co giãn tối thiểu 350px */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #00ffbf;
+  padding-bottom: 12px;
+}
+
+.infoItem h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #00ffbf;
+}
+
+.infoItem p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Form section */
+.form {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #00ffbf;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #00e6b8;
+  box-shadow: 0 0 10px rgba(0, 230, 184, 0.5);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #aaa;
+}
+
+.textarea {
+  height: 140px;
+  resize: none;
+}
+
+.sendBtn {
+  width: 120px;
+  padding: 10px 0;
+  border: 1px solid #00ffbf;
+  background: transparent;
+  color: #00ffbf;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.sendBtn:hover {
+  background: #00ffbf;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 221, 221, 0.5);
+}
+
+.notice {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 20px;
+  }
+
+  .input,
+  .textarea {
+    padding: 12px 0;
+  }
+
+  .input::placeholder,
+  .textarea::placeholder {
+    padding-left: 12px;
+  }
+
+  /* SỬA LỖI LỆCH FORM Ở ĐÂY */
+  .info,
+  .form {
+    padding: 0 20px; /* sửa từ padding-right: 20px; thành padding đều */
+    flex: none;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box; /* tránh tràn width */
+  }
+
+  .infoItem {
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .sendBtn {
+    align-self: center;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+}

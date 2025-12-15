@@ -1,0 +1,109 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #111;
+  color: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  color: #00ffc8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.closeBtn:hover {
+  transform: rotate(90deg) scale(1.2);
+  color: #00ffc8;
+}
+
+.imageSlider {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderImage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: #00ffc8;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px;
+  border-radius: 50%;
+}
+.arrow:hover {
+  background: rgba(0, 255, 200, 0.2);
+}
+.arrow:first-of-type {
+  left: 10px;
+}
+.arrow:last-of-type {
+  right: 10px;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.tag {
+  background: #00ffc820;
+  color: #00ffc8;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.links {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  position: relative;
+  color: #00ffc8;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #00ffc8;
+  border-radius: 6px;
+  transition: all 200ms ease;
+  outline: none;
+}
+
+.links a:hover,
+.links a:focus {
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.4);
+  transform: translateY(-2px);
+}
