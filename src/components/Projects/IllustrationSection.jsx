@@ -17,6 +17,7 @@ import char11 from "../../assets/illustrations/character/11.png";
 import char12 from "../../assets/illustrations/character/12.png";
 import char13 from "../../assets/illustrations/character/13.png";
 import char14 from "../../assets/illustrations/character/14.png";
+import char15 from "../../assets/illustrations/character/15.png";
 
 // Background
 import bg1 from "../../assets/illustrations/background/1.png";
@@ -48,13 +49,17 @@ import line10 from "../../assets/illustrations/line/10.png";
 import line11 from "../../assets/illustrations/line/11.png";
 import line12 from "../../assets/illustrations/line/12.png";
 import line13 from "../../assets/illustrations/line/13.png";
+import line14 from "../../assets/illustrations/line/14.png";
+import line15 from "../../assets/illustrations/line/15.png";
+import line16 from "../../assets/illustrations/line/16.png";
 
 const illustrations = [
   // Character
   { src: char6, category: "Character" },
-  { src: char8, category: "Character" },
   { src: char3, category: "Character" },
+  { src: char15, category: "Character" },
   { src: char13, category: "Character" },
+  { src: char8, category: "Character" },
   { src: char1, category: "Character" },
   { src: char2, category: "Character" },
   { src: char4, category: "Character" },
@@ -88,7 +93,8 @@ const illustrations = [
   { src: line3, category: "Sketch" },
   { src: line4, category: "Sketch" },
   { src: line5, category: "Sketch" },
-  { src: line6, category: "Sketch" },
+  // { src: line6, category: "Sketch" },
+  { src: line16, category: "Sketch" },
   { src: line7, category: "Sketch" },
   { src: line8, category: "Sketch" },
   { src: line9, category: "Sketch" },
@@ -96,6 +102,8 @@ const illustrations = [
   { src: line11, category: "Sketch" },
   { src: line12, category: "Sketch" },
   { src: line13, category: "Sketch" },
+  { src: line14, category: "Sketch" },
+  { src: line15, category: "Sketch" },
 ];
 
 const categories = ["All", "Character", "Background", "Sketch"];
