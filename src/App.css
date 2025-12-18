@@ -1,6 +1,6 @@
 /* Mặc định: nền trắng */
 .App {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
 }
 
 /* Áp dụng cho toàn bộ trang */
