@@ -27,7 +27,7 @@ function About() {
           <p>{t("about.p4")}</p>
 
           <div className={styles.btn_group}>
-            <Btn onClick={() => window.open("https://drive.google.com/file/d/1YhkjdcALascqjf-Z742EU5orzYm1JSjO/view?usp=drive_link", "_blank")}>{t("about.viewCV")}</Btn>
+            <Btn onClick={() => window.open("https://drive.google.com/file/d/1kkaaRBwSVevlXdZDWZ1ChIv68qbiKGjQ/view", "_blank")}>{t("about.viewCV")}</Btn>
           </div>
         </div>
       </div>
