@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "main": {
+    "hello": "Hello, I'm",
+    "im": "I'm a",
+    "roles": ["2D Artist", "Artist with IT Background"],
+    "desc1": "I’m a 2D Artist specializing in anime-style illustration. I am currently learning how to adapt my artwork for game production and eager to grow in a professional game art environment.",
+    "desc2": "I have a Japanese language proficiency equivalent to JLPT N3 and am currently continuing to improve my Japanese communication skills.",
+    "viewCV": "View CV"
+  },
+
+  "about": {
+    "title": "About Me",
+    "hello": "Hello, I’m",
+    "name": "Hoang Trung Phong",
+    "p1": "I am a 2D Artist focusing on anime-style illustration and visual content. I originally studied Information Technology, which helped me develop logical thinking, discipline, and a strong understanding of digital workflows.",
+    "p2": "I have experience using digital art and design tools to create clean, appealing visuals, and I continuously work on improving my artistic skills through practice and personal projects.",
+    "p3": "I always strive to learn, refine my artistic techniques, and develop creative thinking to produce expressive and high-quality visual artwork.",
+    "p4": "I currently have a Japanese level equivalent to JLPT N3 and aim to work in a professional environment in Japan, where I can further develop my art skills and contribute value to the team.",
+    "viewCV": "View CV"
+  },
+
+  "skills": {
+    "title": "SKILLS",
+    "subtitle": "A showcase of my technical and creative abilities",
+    "view": "View",
+    "items": {
+      "drawing": {
+        "title": "Drawing / Illustration",
+        "description": "I enjoy drawing anime characters and backgrounds, focusing on color harmony and mood. This hobby strengthens my creativity and visual sense, which supports my design and front-end work."
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "description": "With both design sense and coding skills, I can transform UI/UX ideas into interactive, responsive web interfaces. I focus on building designs that are visually appealing, accessible, and consistent across devices."
+      },
+      "graphic": {
+        "title": "Graphic Design",
+        "description": "I have experience designing posters and visual content for clubs and events. I focus on creating clean, aesthetic designs that clearly convey messages and enhance visual appeal."
+      },
+      "web": {
+        "title": "Web Developer",
+        "description": "I'm capable of developing complete web applications on both Front-end and Back-end. My main technologies include ReactJS, Node.js, and Java, which allow me to build efficient and scalable systems with clean and user-friendly interfaces."
+      },
+      "others": {
+        "title": "Others",
+        "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: equivalent JLPT N3."
+      }
+    }
+  },
+
+  "projects": {
+    "title": "PROJECTS",
+    "subtitle": "Explore my works and creative endeavors",
+    "tabs": {
+      "illustration": "Illustration",
+      "design": "Design",
+      "dev": "Web Projects"
+    }
+  },
+
+  "illustration": {
+    "imageAlt": "Illustration artwork",
+    "fullView": "Full view illustration",
+    "categories": {
+      "all": "All",
+      "character": "Character",
+      "background": "Background",
+      "sketch": "Sketch / Line"
+    }
+  },
+
+  "design": {
+    "imageAlt": "Design artwork",
+    "fullView": "Full view design",
+    "categories": {
+      "all": "All",
+      "poster": "Poster",
+      "vocabulary": "Vocabulary Design"
+    }
+  },
+
+  "dev": {
+    "projects": {
+      "weatherchill": {
+        "desc": "WeatherChill is a relaxing web app that blends music, visuals, and motion effects to create a chill and immersive experience."
+      },
+      "nihongo": {
+        "desc": "An interactive web app for learning Japanese, featuring vocabulary practice, grammar lessons, quizzes, and a clean interface."
+      },
+      "shopanime": {
+        "desc": "An online anime store offering figures, apparel, and collectibles with a fun shopping experience."
+      },
+      "portfolio": {
+        "desc": "Showcasing my projects and creative work, including web development and design."
+      }
+    }
+  },
+
+  "devMoal": {
+    "modal": {
+      "liveDemo": "Live Demo",
+      "githubFE": "GitHub Frontend",
+      "githubBE": "GitHub Backend"
+    }
+  },
+
+  "contact": {
+    "title": "CONTACT",
+    "subtitle": "Let’s connect and collaborate",
+
+    "email": { "label": "Email" },
+    "phone": { "label": "Phone Number" },
+    "location": {
+      "label": "Location",
+      "value": "Ho Chi Minh City"
+    },
+
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message...",
+      "send": "Send"
+    },
+
+    "notice": "*This is a UI demo — the form does not send email."
+  }
+}

@@ -42,6 +42,23 @@
 }
 
 /* Mobile: ẩn nav, chỉ giữ lại h1 */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px 16px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  /* nếu muốn, căn giữa h1 */
+  .container h1 {
+    text-align: left; /* hoặc center nếu muốn */
+    flex: 1;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 10px 16px;
@@ -57,6 +74,7 @@
     flex: 1;
   }
 }
+
 @media (max-width: 600px) {
   .container {
     justify-content: center;
@@ -85,4 +103,64 @@
 
 .logo {
   color: #ffffff;
+}
+
+/* ===== Language Switch (Improved Dark Neon Style) ===== */
+.langSwitch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.langSwitch button {
+  min-width: 38px;
+  padding: 6px 10px;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: #bdbdbd;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Hover */
+.langSwitch button:hover {
+  color: #00ffbf;
+  border-color: #00ffbf;
+  box-shadow: 0 0 6px rgba(0, 255, 191, 0.5);
+}
+
+/* Active language */
+.activeLang {
+  color: #00ffbf;
+  border-color: #00ffbf;
+  box-shadow: 0 0 0px 2px rgb(0, 255, 191);
+}
+
+/* Keyboard focus */
+.langSwitch button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 255, 191, 0.4);
+}
+
+@media (min-width: 769px) {
+  .langSwitch {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 426px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
 }

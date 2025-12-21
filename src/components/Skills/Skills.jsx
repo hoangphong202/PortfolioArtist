@@ -7,66 +7,61 @@ import OrtherModal from "./OrtherModal";
 import DrawModal from "./DrawModal";
 import DesignModal from "./DesignModal";
 import UIDesignModal from "./UIDesignModal";
+import { useTranslation } from "react-i18next";
 
-Skills.propTypes = {};
-
-function Skills(props) {
+function Skills() {
+  const { t } = useTranslation();
   const [selectedSkill, setSelectedSkill] = useState(null);
 
   const skills = [
     {
+      id: "drawing",
       icon: <FaPalette />,
-      title: "Drawing / Illustration",
-      description:
-        "I enjoy drawing anime characters and backgrounds, focusing on color harmony and mood. This hobby strengthens my creativity and visual sense, which supports my design and front-end work.",
     },
-
     {
+      id: "uiux",
       icon: <MdDesignServices />,
-      title: "UI/UX Design",
-      description:
-        "With both design sense and coding skills, I can transform UI/UX ideas into interactive, responsive web interfaces. I focus on building designs that are visually appealing, accessible, and consistent across devices.",
     },
     {
+      id: "graphic",
       icon: <FaPaintBrush />,
-      title: "Graphic Design",
-      description: "I have experience designing posters and visual content for clubs and events. I focus on creating clean, aesthetic designs that clearly convey messages and enhance visual appeal.",
     },
     {
+      id: "web",
       icon: <FaCode />,
-      title: "Web Developer",
-      description:
-        "I'm capable of developing complete web applications on both Front-end and Back-end. My main technologies include ReactJS, Node.js, and Java, which allow me to build efficient and scalable systems with clean and user-friendly interfaces.",
     },
     {
+      id: "others",
       icon: <FaEllipsisH />,
-      title: "OTHERS",
-      description:
-        "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Familiar with Figma, Photoshop, Illustrator. Japanese level: equivalent JLPT N3.",
     },
   ];
 
   return (
     <section className={styles.skillsSection} id="skills">
-      <h2 className={styles.skillsTitle}>SKILLS</h2>
-      <p className={styles.subtitle}>A showcase of my technical and creative abilities</p>
+      <h2 className={styles.skillsTitle}>{t("skills.title")}</h2>
+      <p className={styles.subtitle}>{t("skills.subtitle")}</p>
+
       <div className={styles.skillsGrid}>
-        {skills.map((skill, index) => (
-          <div className={styles.skillCard} key={index}>
+        {skills.map((skill) => (
+          <div className={styles.skillCard} key={skill.id}>
             <div className={styles.skillIcon}>{skill.icon}</div>
-            <h3 className={styles.skillName}>{skill.title}</h3>
-            <p className={styles.skillDescription}>{skill.description}</p>
-            <button className={styles.viewBtn} onClick={() => setSelectedSkill(skill.title)}>
-              View
+
+            <h3 className={styles.skillName}>{t(`skills.items.${skill.id}.title`)}</h3>
+
+            <p className={styles.skillDescription}>{t(`skills.items.${skill.id}.description`)}</p>
+
+            <button className={styles.viewBtn} onClick={() => setSelectedSkill(skill.id)}>
+              {t("skills.view")}
             </button>
           </div>
         ))}
       </div>
-      {selectedSkill === "Drawing / Illustration" && <DrawModal isOpen onClose={() => setSelectedSkill(null)} />}
-      {selectedSkill === "UI/UX Design" && <UIDesignModal isOpen onClose={() => setSelectedSkill(null)} />}
-      {selectedSkill === "Graphic Design" && <DesignModal isOpen onClose={() => setSelectedSkill(null)} />}
-      {selectedSkill === "Web Developer" && <TechnologyModal isOpen onClose={() => setSelectedSkill(null)} />}
-      {selectedSkill === "OTHERS" && <OrtherModal isOpen onClose={() => setSelectedSkill(null)} />}
+
+      {selectedSkill === "drawing" && <DrawModal isOpen onClose={() => setSelectedSkill(null)} />}
+      {selectedSkill === "uiux" && <UIDesignModal isOpen onClose={() => setSelectedSkill(null)} />}
+      {selectedSkill === "graphic" && <DesignModal isOpen onClose={() => setSelectedSkill(null)} />}
+      {selectedSkill === "web" && <TechnologyModal isOpen onClose={() => setSelectedSkill(null)} />}
+      {selectedSkill === "others" && <OrtherModal isOpen onClose={() => setSelectedSkill(null)} />}
     </section>
   );
 }

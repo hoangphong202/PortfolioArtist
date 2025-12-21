@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+
+  "main": {
+    "hello": "Xin chào, tôi là",
+    "im": "Tôi là",
+    "roles": ["Họa sĩ 2D", "Họa sĩ có nền tảng CNTT"],
+    "desc1": "Tôi là họa sĩ 2D chuyên vẽ minh họa phong cách anime. Hiện tại tôi đang học cách ứng dụng artwork vào sản xuất game và mong muốn phát triển trong môi trường game chuyên nghiệp.",
+    "desc2": "Tôi có trình độ tiếng Nhật tương đương JLPT N3 và hiện đang tiếp tục cải thiện kỹ năng giao tiếp tiếng Nhật.",
+    "viewCV": "Xem CV"
+  },
+
+  "about": {
+    "title": "Giới thiệu",
+    "hello": "Xin chào, tôi là",
+    "name": "Hoàng Trung Phong",
+    "p1": "Tôi là họa sĩ 2D tập trung vào minh họa phong cách anime và nội dung hình ảnh. Tôi từng học Công nghệ Thông tin, điều này giúp tôi có tư duy logic, tính kỷ luật và hiểu rõ quy trình làm việc với kỹ thuật số.",
+    "p2": "Tôi có kinh nghiệm sử dụng các công cụ vẽ và thiết kế số để tạo ra hình ảnh sạch, đẹp và luôn cải thiện kỹ năng thông qua luyện tập và dự án cá nhân.",
+    "p3": "Tôi luôn nỗ lực học hỏi, trau dồi kỹ thuật và phát triển tư duy sáng tạo để tạo ra các tác phẩm có chiều sâu và chất lượng cao.",
+    "p4": "Hiện tại tôi có trình độ tiếng Nhật tương đương JLPT N3 và mong muốn làm việc trong môi trường chuyên nghiệp tại Nhật Bản để phát triển kỹ năng và đóng góp giá trị cho đội nhóm.",
+    "viewCV": "Xem CV"
+  },
+
+  "skills": {
+    "title": "KỸ NĂNG",
+    "subtitle": "Tổng hợp các kỹ năng kỹ thuật và sáng tạo của tôi",
+    "view": "Xem",
+    "items": {
+      "drawing": {
+        "title": "Vẽ / Minh họa",
+        "description": "Tôi yêu thích vẽ nhân vật anime và bối cảnh, tập trung vào màu sắc và cảm xúc. Điều này giúp tôi phát triển tư duy sáng tạo và cảm quan hình ảnh, hỗ trợ tốt cho thiết kế và front-end."
+      },
+      "uiux": {
+        "title": "Thiết kế UI/UX",
+        "description": "Kết hợp tư duy thiết kế và lập trình, tôi có thể hiện thực hóa ý tưởng UI/UX thành giao diện web tương tác, responsive và nhất quán trên nhiều thiết bị."
+      },
+      "graphic": {
+        "title": "Thiết kế đồ họa",
+        "description": "Tôi có kinh nghiệm thiết kế poster và ấn phẩm truyền thông cho câu lạc bộ và sự kiện, tập trung vào bố cục gọn gàng và truyền tải thông điệp rõ ràng."
+      },
+      "web": {
+        "title": "Lập trình Web",
+        "description": "Tôi có thể phát triển ứng dụng web hoàn chỉnh cả Front-end và Back-end với ReactJS, Node.js và Java, đảm bảo hiệu năng, khả năng mở rộng và trải nghiệm người dùng."
+      },
+      "others": {
+        "title": "Khác",
+        "description": "Kỹ năng làm việc nhóm, giao tiếp và quản lý thời gian tốt. Có khả năng tự học, giải quyết vấn đề và thích nghi công nghệ mới. Trình độ tiếng Nhật tương đương JLPT N3."
+      }
+    }
+  },
+
+  "projects": {
+    "title": "DỰ ÁN",
+    "subtitle": "Khám phá các sản phẩm và dự án sáng tạo của tôi",
+    "tabs": {
+      "illustration": "Minh họa",
+      "design": "Thiết kế",
+      "dev": "Dự án Web"
+    }
+  },
+
+  "illustration": {
+    "imageAlt": "Tác phẩm minh họa",
+    "fullView": "Xem ảnh đầy đủ",
+    "categories": {
+      "all": "Tất cả",
+      "character": "Nhân vật",
+      "background": "Bối cảnh",
+      "sketch": "Phác thảo / Line"
+    }
+  },
+
+  "design": {
+    "imageAlt": "Tác phẩm thiết kế",
+    "fullView": "Xem ảnh đầy đủ",
+    "categories": {
+      "all": "Tất cả",
+      "poster": "Poster",
+      "vocabulary": "Thiết kế từ vựng"
+    }
+  },
+
+  "dev": {
+    "projects": {
+      "weatherchill": {
+        "desc": "WeatherChill là ứng dụng web thư giãn kết hợp âm nhạc, hình ảnh và hiệu ứng chuyển động."
+      },
+      "nihongo": {
+        "desc": "Ứng dụng học tiếng Nhật tương tác với từ vựng, ngữ pháp, quiz và giao diện thân thiện."
+      },
+      "shopanime": {
+        "desc": "Cửa hàng anime trực tuyến cung cấp mô hình, trang phục và đồ sưu tầm."
+      },
+      "portfolio": {
+        "desc": "Trang portfolio giới thiệu dự án và sản phẩm sáng tạo của tôi."
+      }
+    }
+  },
+
+  "devMoal": {
+    "modal": {
+      "liveDemo": "Xem demo",
+      "githubFE": "GitHub Frontend",
+      "githubBE": "GitHub Backend"
+    }
+  },
+
+  "contact": {
+    "title": "LIÊN HỆ",
+    "subtitle": "Kết nối và hợp tác cùng nhau",
+
+    "email": { "label": "Email" },
+    "phone": { "label": "Số điện thoại" },
+    "location": {
+      "label": "Địa điểm",
+      "value": "Thành phố Hồ Chí Minh"
+    },
+
+    "form": {
+      "name": "Tên",
+      "email": "Email",
+      "message": "Nội dung...",
+      "send": "Gửi"
+    },
+
+    "notice": "*Đây là giao diện demo — form không gửi email."
+  }
+}

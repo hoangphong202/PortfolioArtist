@@ -54,6 +54,7 @@
 }
 
 .skillDescription {
+  /* text-align: justify; */
   font-size: 14px;
   color: #bbb;
   line-height: 1.5;

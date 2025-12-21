@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "./pages/Home";
 import "./App.css";
+import "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

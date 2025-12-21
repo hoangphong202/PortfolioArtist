@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import DevModal from "./DevModal";
 import styles from "./DevSection.module.css";
 
@@ -22,20 +23,20 @@ import shop2 from "../../assets/projects/shopanime/2.jpg";
 import p1 from "../../assets/projects/portfolio/1p.png";
 
 const DevSection = () => {
+  const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
       title: "WeatherChill",
-      desc: "WeatherChill is a relaxing web app that blends music, visuals, and motion effects to create a chill and immersive experience.",
+      descKey: "dev.projects.weatherchill.desc",
       tags: ["HTML", "CSS", "JS", "Java"],
       images: [wc2, wc1, wc6, wc3, wc4, wc5, wc7],
-      // link: "https://your-demo-link.com",
       githubBE: "https://github.com/hoangphong202/WeatherChill",
     },
     {
       title: "Nihongo Learning",
-      desc: "An interactive web app for learning Japanese, featuring vocabulary practice, grammar lessons, quizzes, and a clean, user-friendly interface.",
+      descKey: "dev.projects.nihongo.desc",
       tags: ["HTML", "CSS", "ReactJS", "Java"],
       images: [nihon1, nihon2, nihon3, nihon4, nihon5],
       githubFE: "https://github.com/hoangphong202/japan_fe",
@@ -43,7 +44,7 @@ const DevSection = () => {
     },
     {
       title: "Shop Anime",
-      desc: "An online anime store offering figures, apparel, and collectibles with a fun and immersive shopping experience.",
+      descKey: "dev.projects.shopanime.desc",
       tags: ["HTML", "CSS", "ReactJS", "Java"],
       images: [shop1, shop2],
       githubFE: "https://github.com/hoangphong202/ShopAnimeFE",
@@ -51,7 +52,7 @@ const DevSection = () => {
     },
     {
       title: "Portfolio",
-      desc: "Showcasing my projects and creative work, including web development and design.",
+      descKey: "dev.projects.portfolio.desc",
       tags: ["HTML", "CSS", "ReactJS"],
       images: [p1],
       githubFE: "https://github.com/hoangphong202/Portfolio",
@@ -66,9 +67,11 @@ const DevSection = () => {
           <div className={styles.imageWrapper}>
             <img src={p.images[0]} alt={p.title} className={styles.image} />
           </div>
+
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>{p.title}</h3>
-            <p className={styles.cardDesc}>{p.desc}</p>
+            <p className={styles.cardDesc}>{t(p.descKey)}</p>
+
             <div className={styles.tagRow}>
               {p.tags.map((tag, idx) => (
                 <span key={idx} className={styles.tag}>
@@ -80,7 +83,6 @@ const DevSection = () => {
         </div>
       ))}
 
-      {/* modal hiển thị chi tiết */}
       {selectedProject && <DevModal project={selectedProject} onClose={() => setSelectedProject(null)} />}
     </div>
   );

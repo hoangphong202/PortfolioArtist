@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "./IllustrationSection.module.css";
+import { useTranslation } from "react-i18next";
 
 // Character
 import char1 from "../../assets/illustrations/character/1.png";
@@ -54,119 +55,113 @@ import line15 from "../../assets/illustrations/line/15.png";
 import line16 from "../../assets/illustrations/line/16.png";
 
 const illustrations = [
-  // Character
-  { src: char6, category: "Character" },
-  { src: char3, category: "Character" },
-  { src: char15, category: "Character" },
-  { src: char13, category: "Character" },
-  { src: char8, category: "Character" },
-  { src: char1, category: "Character" },
-  { src: char2, category: "Character" },
-  { src: char4, category: "Character" },
-  { src: char5, category: "Character" },
-  { src: char7, category: "Character" },
-  { src: char9, category: "Character" },
-  { src: char10, category: "Character" },
-  { src: char11, category: "Character" },
-  { src: char12, category: "Character" },
-  { src: char14, category: "Character" },
+  { src: char6, category: "character" },
+  { src: char3, category: "character" },
+  { src: char15, category: "character" },
+  { src: char13, category: "character" },
+  { src: char8, category: "character" },
+  { src: char1, category: "character" },
+  { src: char2, category: "character" },
+  { src: char4, category: "character" },
+  { src: char5, category: "character" },
+  { src: char7, category: "character" },
+  { src: char9, category: "character" },
+  { src: char10, category: "character" },
+  { src: char11, category: "character" },
+  { src: char12, category: "character" },
+  { src: char14, category: "character" },
 
-  // Background
-  { src: bg1, category: "Background" },
-  { src: bg13, category: "Background" },
-  { src: bg14, category: "Background" },
-  { src: bg5, category: "Background" },
-  { src: bg11, category: "Background" },
-  { src: bg2, category: "Background" },
-  { src: bg12, category: "Background" },
-  { src: bg3, category: "Background" },
-  { src: bg4, category: "Background" },
-  { src: bg6, category: "Background" },
-  { src: bg7, category: "Background" },
-  { src: bg8, category: "Background" },
-  { src: bg9, category: "Background" },
-  { src: bg10, category: "Background" },
+  { src: bg1, category: "background" },
+  { src: bg13, category: "background" },
+  { src: bg14, category: "background" },
+  { src: bg5, category: "background" },
+  { src: bg11, category: "background" },
+  { src: bg2, category: "background" },
+  { src: bg12, category: "background" },
+  { src: bg3, category: "background" },
+  { src: bg4, category: "background" },
+  { src: bg6, category: "background" },
+  { src: bg7, category: "background" },
+  { src: bg8, category: "background" },
+  { src: bg9, category: "background" },
+  { src: bg10, category: "background" },
 
-  // Sketch / Line
-  { src: line1, category: "Sketch" },
-  { src: line2, category: "Sketch" },
-  { src: line3, category: "Sketch" },
-  { src: line4, category: "Sketch" },
-  { src: line5, category: "Sketch" },
-  // { src: line6, category: "Sketch" },
-  { src: line16, category: "Sketch" },
-  { src: line7, category: "Sketch" },
-  { src: line8, category: "Sketch" },
-  { src: line9, category: "Sketch" },
-  { src: line10, category: "Sketch" },
-  { src: line11, category: "Sketch" },
-  { src: line12, category: "Sketch" },
-  { src: line13, category: "Sketch" },
-  { src: line14, category: "Sketch" },
-  { src: line15, category: "Sketch" },
+  { src: line1, category: "sketch" },
+  { src: line2, category: "sketch" },
+  { src: line3, category: "sketch" },
+  { src: line4, category: "sketch" },
+  { src: line5, category: "sketch" },
+  { src: line16, category: "sketch" },
+  { src: line7, category: "sketch" },
+  { src: line8, category: "sketch" },
+  { src: line9, category: "sketch" },
+  { src: line10, category: "sketch" },
+  { src: line11, category: "sketch" },
+  { src: line12, category: "sketch" },
+  { src: line13, category: "sketch" },
+  { src: line14, category: "sketch" },
+  { src: line15, category: "sketch" },
 ];
 
-const categories = ["All", "Character", "Background", "Sketch"];
+const categoryKeys = ["all", "character", "background", "sketch"];
 
 const IllustrationSection = () => {
+  const { t } = useTranslation();
   const [startIndex, setStartIndex] = useState(0);
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("all");
   const [lightbox, setLightbox] = useState({ open: false, src: "" });
   const [allRandom, setAllRandom] = useState([]);
 
   const visibleCount = 3;
 
-  React.useEffect(() => {
-    setStartIndex(0); // reset slider
-    if (selectedCategory === "All") {
+  useEffect(() => {
+    setStartIndex(0);
+    if (selectedCategory === "all") {
       setAllRandom([...illustrations].sort(() => Math.random() - 0.5));
     }
   }, [selectedCategory]);
 
-  const filtered = selectedCategory === "All" ? allRandom : illustrations.filter((i) => i.category === selectedCategory);
+  const filtered = selectedCategory === "all" ? allRandom : illustrations.filter((i) => i.category === selectedCategory);
 
   const next = () => {
     if (startIndex + visibleCount < filtered.length) setStartIndex(startIndex + 1);
   };
+
   const prev = () => {
     if (startIndex > 0) setStartIndex(startIndex - 1);
   };
 
-  React.useEffect(() => setStartIndex(0), [selectedCategory]);
-
-  // Mở lightbox
   const openLightbox = (src) => setLightbox({ open: true, src });
   const closeLightbox = () => setLightbox({ open: false, src: "" });
 
   return (
     <div className={styles.wrapper}>
-      {/* Bộ lọc thể loại */}
+      {/* Filter */}
       <div className={styles.filterBar}>
-        {categories.map((cat) => (
-          <button key={cat} className={`${styles.filterBtn} ${selectedCategory === cat ? styles.active : ""}`} onClick={() => setSelectedCategory(cat)}>
-            {cat}
+        {categoryKeys.map((key) => (
+          <button key={key} className={`${styles.filterBtn} ${selectedCategory === key ? styles.active : ""}`} onClick={() => setSelectedCategory(key)}>
+            {t(`illustration.categories.${key}`)}
           </button>
         ))}
       </div>
 
-      {/* Slider */}
+      {/* Carousel */}
       <div className={styles.carousel}>
         <button className={styles.arrowLeft} onClick={prev} disabled={startIndex === 0}>
           <ChevronLeft size={26} />
         </button>
 
         <div className={styles.sliderContainer}>
-          <div className={styles.slider} style={{ transform: `translateX(-${startIndex * (100 / visibleCount)}%)` }}>
+          <div
+            className={styles.slider}
+            style={{
+              transform: `translateX(-${startIndex * (100 / visibleCount)}%)`,
+            }}
+          >
             {filtered.map((item, i) => (
               <div className={styles.card} key={i}>
-                <img
-                  src={item.src}
-                  alt={item.title}
-                  className={styles.image}
-                  onClick={() => openLightbox(item.src)} // click mở ảnh full
-                />
-                <p className={styles.title}>{item.title}</p>
-                <span className={styles.tag}>{item.category}</span>
+                <img src={item.src} alt={t("illustration.imageAlt")} className={styles.image} onClick={() => openLightbox(item.src)} />
+                <span className={styles.tag}>{t(`illustration.categories.${item.category}`)}</span>
               </div>
             ))}
           </div>
@@ -180,7 +175,7 @@ const IllustrationSection = () => {
       {/* Lightbox */}
       {lightbox.open && (
         <div className={styles.lightbox} onClick={closeLightbox}>
-          <img src={lightbox.src} alt="Full view" className={styles.lightboxImage} />
+          <img src={lightbox.src} alt={t("illustration.fullView")} className={styles.lightboxImage} />
         </div>
       )}
     </div>
