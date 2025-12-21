@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioArtist/static/css/main.49b06bee.css",
-    "main.js": "/PortfolioArtist/static/js/main.6b9a1d5e.js",
+    "main.css": "/PortfolioArtist/static/css/main.bd179c36.css",
+    "main.js": "/PortfolioArtist/static/js/main.5478511a.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.bb72fcdeca91754699d8.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.26ecb47b710608245e35.png",
@@ -52,12 +52,12 @@
     "static/media/VN.png": "/PortfolioArtist/static/media/VN.0d9462577d99ff8e24ff.png",
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
-    "main.49b06bee.css.map": "/PortfolioArtist/static/css/main.49b06bee.css.map",
-    "main.6b9a1d5e.js.map": "/PortfolioArtist/static/js/main.6b9a1d5e.js.map",
+    "main.bd179c36.css.map": "/PortfolioArtist/static/css/main.bd179c36.css.map",
+    "main.5478511a.js.map": "/PortfolioArtist/static/js/main.5478511a.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b06bee.css",
-    "static/js/main.6b9a1d5e.js"
+    "static/css/main.bd179c36.css",
+    "static/js/main.5478511a.js"
   ]
 }
