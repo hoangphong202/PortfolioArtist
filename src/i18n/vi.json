@@ -10,8 +10,8 @@
   "main": {
     "hello": "Xin chào, tôi là",
     "im": "Tôi là",
-    "roles": ["Họa sĩ 2D", "Họa sĩ có nền tảng CNTT"],
-    "desc1": "Tôi là họa sĩ 2D chuyên vẽ minh họa phong cách anime. Hiện tại tôi đang học cách ứng dụng artwork vào sản xuất game và mong muốn phát triển trong môi trường game chuyên nghiệp.",
+    "roles": ["2D Artist", "Artist có nền tảng CNTT"],
+    "desc1": "Tôi là 2D Artist chuyên vẽ minh họa phong cách anime. Hiện tại tôi đang học cách ứng dụng artwork vào sản xuất game và mong muốn phát triển trong môi trường game chuyên nghiệp.",
     "desc2": "Tôi có trình độ tiếng Nhật tương đương JLPT N3 và hiện đang tiếp tục cải thiện kỹ năng giao tiếp tiếng Nhật.",
     "viewCV": "Xem CV"
   },
