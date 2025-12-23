@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import ProjectPage from "../components/Projects/ProjectPage";
 import Contact from "../components/Contact/Contact";
+import Activities from "../components/Activities/Activities";
 
 Home.propTypes = {};
 
@@ -15,6 +16,7 @@ function Home(props) {
       <Main />
       <About />
       <Skills />
+      <Activities />
       <ProjectPage />
       <Contact />
     </>

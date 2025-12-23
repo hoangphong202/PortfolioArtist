@@ -4,11 +4,13 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "activities": "Activities"
   },
 
   "main": {
     "hello": "Hello, I'm",
+    "name": "Hoang Trung Phong",
     "im": "I'm a",
     "roles": ["2D Artist", "Artist with IT Background"],
     "desc1": "I’m a 2D Artist specializing in anime-style illustration. I am currently learning how to adapt my artwork for game production and eager to grow in a professional game art environment.",
@@ -20,7 +22,7 @@
     "title": "About Me",
     "hello": "Hello, I’m",
     "name": "Hoang Trung Phong",
-    "p1": "I am a 2D Artist focusing on anime-style illustration and visual content. I originally studied Information Technology, which helped me develop logical thinking, discipline, and a strong understanding of digital workflows.",
+    "p1": "I am a 2D artist specializing in anime-style illustration. I studied Information Technology at Ho Chi Minh City University of Technology (HUTECH), Vietnam–Japan Institute of Technology, which has provided me with a strong logical mindset, discipline, and the ability to work efficiently within digital production workflows.",
     "p2": "I have experience using digital art and design tools to create clean, appealing visuals, and I continuously work on improving my artistic skills through practice and personal projects.",
     "p3": "I always strive to learn, refine my artistic techniques, and develop creative thinking to produce expressive and high-quality visual artwork.",
     "p4": "I currently have a Japanese level equivalent to JLPT N3 and aim to work in a professional environment in Japan, where I can further develop my art skills and contribute value to the team.",
@@ -51,6 +53,42 @@
       "others": {
         "title": "Others",
         "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: equivalent JLPT N3."
+      }
+    }
+  },
+
+  "activities": {
+    "title": "Activities",
+    "description": "A selection of my extracurricular activities and contributions",
+    "view": "View",
+
+    "items": {
+      "isshou": {
+        "title": "Isshou Japanese Language Club – VJIT",
+        "role": "Media Design Member",
+        "description": ["Designed educational posts introducing Japanese vocabulary for club members.", "Created posters and visual materials for club activities using Photoshop."],
+        "tags": ["Illustration", "Photoshop", "Japanese"]
+      },
+
+      "ardenlolo": {
+        "title": "Art Game – Ardenlolo (Facebook)",
+        "role": "Participant",
+        "description": ["Participated in art games organized by Ardenlolo.", "Colored original anime illustrations focusing on lighting, color harmony, and mood."],
+        "tags": ["Anime Style", "Coloring"]
+      },
+
+      "artstreet": {
+        "title": "Art Contest – Web Art Street",
+        "role": "Contestant",
+        "description": ["Participated in seasonal art contests on Art Street.", "Created original illustrations based on contest themes."],
+        "tags": ["Illustration", "Creative", "Anime Style"]
+      },
+
+      "wallnewspaper": {
+        "title": "Wall Newspaper Project – VJIT",
+        "role": "Illustrator & Layout Designer",
+        "description": ["Designed a wall newspaper themed around the Japanese Hiragana alphabet.", "Responsible for illustration and overall layout composition."],
+        "tags": ["Layout", "Illustration", "Japanese"]
       }
     }
   },

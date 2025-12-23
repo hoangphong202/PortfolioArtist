@@ -1,0 +1,236 @@
+/* ============================= */
+/* SECTION */
+/* ============================= */
+.activitiesDescription {
+  /* text-align: justify; */
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.activities {
+  padding: 80px 10%;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+/* ============================= */
+/* GRID & CARD */
+/* ============================= */
+
+.grid {
+  display: grid;
+  padding-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: linear-gradient(180deg, #121212, #0c0c0c);
+  /* border: 1.5px solid rgba(0, 255, 191, 0.25); */
+  border-radius: 20px;
+  padding: 28px 23px 30px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgb(0, 255, 191);
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+/* ============================= */
+/* ROLE & DESCRIPTION */
+/* ============================= */
+
+.role {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-bottom: 16px;
+}
+
+.card ul {
+  padding-left: 18px;
+  margin-bottom: 18px;
+}
+
+.card li {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+/* ============================= */
+/* TAGS */
+/* ============================= */
+
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tags span {
+  background: rgba(0, 255, 191, 0.12);
+  border: 1px solid rgba(0, 255, 191, 0.35);
+  color: #00ffbf;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 12px;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.tags span:hover {
+  background: rgba(0, 255, 191, 0.25);
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* VIEW BUTTON */
+/* ============================= */
+
+.viewBtn {
+  margin: 20px auto 0;
+  display: block;
+  padding: 6px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #00ffbf, #00cfa0);
+  color: #000;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.viewBtn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 22px rgba(0, 255, 191, 0.65);
+}
+
+/* ============================= */
+/* MODAL */
+/* ============================= */
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modalContent {
+  position: relative;
+  background: #0f0f0f;
+  border-radius: 22px;
+  padding: 28px;
+  width: 92%;
+  max-width: 1000px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Close Button */
+
+.closeBtn {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.closeBtn:hover {
+  transform: rotate(90deg);
+  color: #ff0000;
+}
+
+/* ============================= */
+/* IMAGE GRID */
+/* ============================= */
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.imageItem {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #000;
+  cursor: pointer;
+}
+
+.imageItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.imageItem:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.05);
+}
+
+/* ============================= */
+/* FULL IMAGE VIEW */
+/* ============================= */
+
+.fullOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.fullOverlay img {
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 18px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .activities {
+    padding: 60px 6%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+}

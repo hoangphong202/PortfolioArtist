@@ -12,7 +12,7 @@ function Main() {
     <div id="home" className={styles.main_container}>
       <div className={styles.container}>
         <p className={styles.hello}>
-          {t("main.hello")} <span>Hoang Trung Phong</span>
+          {t("main.hello")} <span>{t("main.name")}</span>
         </p>
 
         <h2 className={styles.title}>

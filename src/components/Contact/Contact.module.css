@@ -1,10 +1,11 @@
 .contactSection {
   padding: 50px 20px;
-  background: #0d0d0d;
+  background-color: #000;
   color: white;
 }
 
 .title {
+  margin-bottom: 5px;
   text-align: center;
   font-size: 32px;
   font-weight: bold;

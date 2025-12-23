@@ -3,6 +3,7 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "skills": "Kỹ năng",
+    "activities": "Hoạt động",
     "projects": "Dự án",
     "contact": "Liên hệ"
   },
@@ -10,6 +11,7 @@
   "main": {
     "hello": "Xin chào, tôi là",
     "im": "Tôi là",
+    "name": "Hoàng Trung Phong",
     "roles": ["2D Artist", "Artist có nền tảng CNTT"],
     "desc1": "Tôi là 2D Artist chuyên vẽ minh họa phong cách anime. Hiện tại tôi đang học cách ứng dụng artwork vào sản xuất game và mong muốn phát triển trong môi trường game chuyên nghiệp.",
     "desc2": "Tôi có trình độ tiếng Nhật tương đương JLPT N3 và hiện đang tiếp tục cải thiện kỹ năng giao tiếp tiếng Nhật.",
@@ -20,7 +22,7 @@
     "title": "Giới thiệu",
     "hello": "Xin chào, tôi là",
     "name": "Hoàng Trung Phong",
-    "p1": "Tôi là họa sĩ 2D tập trung vào minh họa phong cách anime và nội dung hình ảnh. Tôi từng học Công nghệ Thông tin, điều này giúp tôi có tư duy logic, tính kỷ luật và hiểu rõ quy trình làm việc với kỹ thuật số.",
+    "p1": "Tôi là họa sĩ 2D theo đuổi minh họa phong cách anime, hiện đã học Công nghệ Thông tin tại Đại học Công nghệ TP. Hồ Chí Minh (HUTECH) Viện Công nghệ Việt – Nhật với nền tảng CNTT giúp tôi có tư duy logic, kỷ luật và khả năng làm việc hiệu quả với quy trình kỹ thuật số.",
     "p2": "Tôi có kinh nghiệm sử dụng các công cụ vẽ và thiết kế số để tạo ra hình ảnh sạch, đẹp và luôn cải thiện kỹ năng thông qua luyện tập và dự án cá nhân.",
     "p3": "Tôi luôn nỗ lực học hỏi, trau dồi kỹ thuật và phát triển tư duy sáng tạo để tạo ra các tác phẩm có chiều sâu và chất lượng cao.",
     "p4": "Hiện tại tôi có trình độ tiếng Nhật tương đương JLPT N3 và mong muốn làm việc trong môi trường chuyên nghiệp tại Nhật Bản để phát triển kỹ năng và đóng góp giá trị cho đội nhóm.",
@@ -51,6 +53,42 @@
       "others": {
         "title": "Khác",
         "description": "Kỹ năng làm việc nhóm, giao tiếp và quản lý thời gian tốt. Có khả năng tự học, giải quyết vấn đề và thích nghi công nghệ mới. Trình độ tiếng Nhật tương đương JLPT N3."
+      }
+    }
+  },
+
+  "activities": {
+    "title": "Hoạt động",
+    "description": "Tổng hợp một số hoạt động ngoại khóa và đóng góp của tôi",
+    "view": "Xem",
+
+    "items": {
+      "isshou": {
+        "title": "CLB Tiếng Nhật Isshou – VJIT",
+        "role": "Thành viên Thiết kế Truyền thông",
+        "description": ["Thiết kế bài đăng giới thiệu từ vựng tiếng Nhật cho thành viên CLB.", "Thiết kế poster và ấn phẩm truyền thông bằng Photoshop."],
+        "tags": ["Minh họa", "Photoshop", "Tiếng Nhật"]
+      },
+
+      "ardenlolo": {
+        "title": "Art Game – Ardenlolo (Facebook)",
+        "role": "Người tham gia",
+        "description": ["Tham gia các art game do Ardenlolo tổ chức.", "Tô màu tranh anime gốc, tập trung vào ánh sáng, màu sắc và cảm xúc nhân vật."],
+        "tags": ["Phong cách Anime", "Tô màu"]
+      },
+
+      "artstreet": {
+        "title": "Cuộc thi vẽ – Web Art Street",
+        "role": "Thí sinh",
+        "description": ["Tham gia các cuộc thi vẽ theo mùa trên Art Street.", "Sáng tác tranh minh họa theo chủ đề và yêu cầu của cuộc thi."],
+        "tags": ["Minh họa", "Sáng tạo", "Phong cách Anime"]
+      },
+
+      "wallnewspaper": {
+        "title": "Dự án Báo tường – VJIT",
+        "role": "Minh họa & Thiết kế Bố cục",
+        "description": ["Thiết kế báo tường theo chủ đề bảng chữ cái Hiragana.", "Phụ trách minh họa và bố cục tổng thể."],
+        "tags": ["Bố cục", "Minh họa", "Tiếng Nhật"]
       }
     }
   },

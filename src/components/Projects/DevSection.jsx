@@ -55,8 +55,8 @@ const DevSection = () => {
       descKey: "dev.projects.portfolio.desc",
       tags: ["HTML", "CSS", "ReactJS"],
       images: [p1],
-      githubFE: "https://github.com/hoangphong202/Portfolio",
-      link: "https://hoangphong202.github.io/Portfolio/",
+      githubFE: "https://github.com/hoangphong202/PortfolioArtist",
+      link: "https://hoangphong202.github.io/PortfolioArtist/",
     },
   ];
 

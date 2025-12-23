@@ -13,7 +13,7 @@ function Layout() {
   };
 
   const handleScroll = () => {
-    const sections = ["home", "about", "skills", "projects", "contact"];
+    const sections = ["home", "about", "skills", "activities", "projects", "contact"];
     const viewportMid = window.innerHeight / 2;
 
     for (const sectionId of sections) {
@@ -55,7 +55,7 @@ function Layout() {
         <h1 className={styles.logo}>HOANGTRUNGPHONG</h1>
 
         <nav className={styles.navLinks}>
-          {["home", "about", "skills", "projects", "contact"].map((section) => (
+          {["home", "about", "skills", "activities", "projects", "contact"].map((section) => (
             <a key={section} href={`#${section}`} onClick={(e) => handleClick(section, e)} className={`${styles.link} ${activeSection === section ? styles.active : ""}`}>
               {t(`nav.${section}`)}
             </a>
