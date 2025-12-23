@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PortfolioArtist/static/css/main.bd179c36.css",
-    "main.js": "/PortfolioArtist/static/js/main.44c3ae7b.js",
+    "main.css": "/PortfolioArtist/static/css/main.3b9e0066.css",
+    "main.js": "/PortfolioArtist/static/js/main.bc117179.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.bb72fcdeca91754699d8.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.26ecb47b710608245e35.png",
+    "static/media/2.png": "/PortfolioArtist/static/media/2.aa3d15a7fda5962f7c42.png",
     "static/media/7.png": "/PortfolioArtist/static/media/7.568d442634b77a64f440.png",
     "static/media/3.png": "/PortfolioArtist/static/media/3.ae9d029aacfbf8a001db.png",
     "static/media/5.png": "/PortfolioArtist/static/media/5.f28a4a624538d0ee5601.png",
     "static/media/10.png": "/PortfolioArtist/static/media/10.840ec716cbfbbd8b107c.png",
-    "static/media/1.png": "/PortfolioArtist/static/media/1.50308b63eba0e5858793.png",
+    "static/media/1.png": "/PortfolioArtist/static/media/1.d76b1c39943db817a44c.png",
     "static/media/13.png": "/PortfolioArtist/static/media/13.8ebbf50cff93ae27e959.png",
     "static/media/15.png": "/PortfolioArtist/static/media/15.72870c917e510ada8554.png",
     "static/media/14.png": "/PortfolioArtist/static/media/14.e599352360a967c4853a.png",
-    "static/media/2.png": "/PortfolioArtist/static/media/2.aa3d15a7fda5962f7c42.png",
     "static/media/12.png": "/PortfolioArtist/static/media/12.64da2ccbdf31c1a22989.png",
     "static/media/11.png": "/PortfolioArtist/static/media/11.250ff4fe23f29f2cf7ce.png",
     "static/media/7.jpg": "/PortfolioArtist/static/media/7.67ce82a04aa0033c15f7.jpg",
@@ -52,12 +52,12 @@
     "static/media/VN.png": "/PortfolioArtist/static/media/VN.0d9462577d99ff8e24ff.png",
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
-    "main.bd179c36.css.map": "/PortfolioArtist/static/css/main.bd179c36.css.map",
-    "main.44c3ae7b.js.map": "/PortfolioArtist/static/js/main.44c3ae7b.js.map",
+    "main.3b9e0066.css.map": "/PortfolioArtist/static/css/main.3b9e0066.css.map",
+    "main.bc117179.js.map": "/PortfolioArtist/static/js/main.bc117179.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd179c36.css",
-    "static/js/main.44c3ae7b.js"
+    "static/css/main.3b9e0066.css",
+    "static/js/main.bc117179.js"
   ]
 }
