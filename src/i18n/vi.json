@@ -22,10 +22,10 @@
     "title": "Giới thiệu",
     "hello": "Xin chào, tôi là",
     "name": "Hoàng Trung Phong",
-    "p1": "Tôi là họa sĩ 2D theo đuổi minh họa phong cách anime, hiện đã học Công nghệ Thông tin tại Đại học Công nghệ TP. Hồ Chí Minh (HUTECH) Viện Công nghệ Việt – Nhật với nền tảng CNTT giúp tôi có tư duy logic, kỷ luật và khả năng làm việc hiệu quả với quy trình kỹ thuật số.",
-    "p2": "Tôi có kinh nghiệm sử dụng các công cụ vẽ và thiết kế số để tạo ra hình ảnh sạch, đẹp và luôn cải thiện kỹ năng thông qua luyện tập và dự án cá nhân.",
+    "p1": "Tôi là 2D Artist theo đuổi minh họa phong cách anime, hiện đã học Công nghệ Thông tin tại Đại học Công nghệ TP. Hồ Chí Minh (HUTECH) Viện Công nghệ Việt – Nhật với nền tảng CNTT giúp tôi có tư duy logic, kỷ luật và khả năng làm việc hiệu quả với quy trình kỹ thuật số.",
+    "p2": "Tôi có kinh nghiệm sử dụng các công cụ vẽ và thiết kế để tạo ra hình ảnh sạch, đẹp và luôn cải thiện kỹ năng thông qua luyện tập và dự án cá nhân.",
     "p3": "Tôi luôn nỗ lực học hỏi, trau dồi kỹ thuật và phát triển tư duy sáng tạo để tạo ra các tác phẩm có chiều sâu và chất lượng cao.",
-    "p4": "Hiện tại tôi có trình độ tiếng Nhật tương đương JLPT N3 và mong muốn làm việc trong môi trường chuyên nghiệp tại Nhật Bản để phát triển kỹ năng và đóng góp giá trị cho đội nhóm.",
+    "p4": "Hiện tại tôi có trình độ tiếng Nhật tương đương JLPT N3 và mong muốn làm việc trong môi trường chuyên nghiệp Nhật Bản để phát triển kỹ năng và đóng góp giá trị cho đội nhóm.",
     "viewCV": "Xem CV"
   },
 
@@ -36,15 +36,53 @@
     "items": {
       "drawing": {
         "title": "Vẽ / Minh họa",
-        "description": "Tôi yêu thích vẽ nhân vật anime và bối cảnh, tập trung vào màu sắc và cảm xúc. Điều này giúp tôi phát triển tư duy sáng tạo và cảm quan hình ảnh, hỗ trợ tốt cho thiết kế và front-end."
+        "description": "Tôi yêu thích vẽ nhân vật anime và bối cảnh, tập trung vào màu sắc và cảm xúc. Điều này giúp tôi phát triển tư duy sáng tạo và cảm quan hình ảnh, hỗ trợ tốt cho thiết kế và front-end.",
+        "detail": {
+          "drawing": {
+            "title": "Ứng dụng vẽ",
+            "csp": "Clip Studio Paint",
+            "photoshop": "Photoshop",
+            "medibang": "MediBang Paint",
+            "ibis": "ibisPaint"
+          },
+          "animation": {
+            "title": "Animation / Motion",
+            "live2d": "Live2D",
+            "spine": "Spine",
+            "aftereffects": "After Effects"
+          }
+        }
       },
       "uiux": {
         "title": "Thiết kế UI/UX",
-        "description": "Kết hợp tư duy thiết kế và lập trình, tôi có thể hiện thực hóa ý tưởng UI/UX thành giao diện web tương tác, responsive và nhất quán trên nhiều thiết bị."
+        "description": "Kết hợp tư duy thiết kế và lập trình, tôi có thể hiện thực hóa ý tưởng UI/UX thành giao diện web tương tác, responsive và nhất quán trên nhiều thiết bị.",
+        "tools": "Công cụ"
       },
       "graphic": {
         "title": "Thiết kế đồ họa",
-        "description": "Tôi có kinh nghiệm thiết kế poster và ấn phẩm truyền thông cho câu lạc bộ và sự kiện, tập trung vào bố cục gọn gàng và truyền tải thông điệp rõ ràng."
+        "description": "Tôi có kinh nghiệm thiết kế poster và ấn phẩm truyền thông cho câu lạc bộ và sự kiện, tập trung vào bố cục gọn gàng và truyền tải thông điệp rõ ràng.",
+        "detail": {
+          "design": {
+            "title": "Ứng dụng thiết kế",
+            "figma": "Figma",
+            "canva": "Canva",
+            "picsart": "PicsArt",
+            "csp": "Clip Studio Paint",
+            "photoshop": "Photoshop"
+          },
+          "motion": {
+            "title": "Motion & Âm thanh",
+            "avee": "Avee Player",
+            "alight": "Alight Motion",
+            "capcut": "CapCut",
+            "aftereffects": "After Effects"
+          }
+        }
+      },
+      "game": {
+        "title": "Game Art / Unity",
+        "description": "Kinh nghiệm tạo art 2D cho game bao gồm nhân vật, hiệu ứng đạn và hiệu ứng hình ảnh. Quen thuộc với việc triển khai asset và logic gameplay cơ bản trong Unity để hỗ trợ gameplay rõ ràng và dễ hiểu.",
+        "tools": "Công cụ"
       },
       "web": {
         "title": "Lập trình Web",
@@ -52,7 +90,23 @@
       },
       "others": {
         "title": "Khác",
-        "description": "Kỹ năng làm việc nhóm, giao tiếp và quản lý thời gian tốt. Có khả năng tự học, giải quyết vấn đề và thích nghi công nghệ mới. Trình độ tiếng Nhật tương đương JLPT N3."
+        "description": "Kỹ năng làm việc nhóm, giao tiếp và quản lý thời gian tốt. Có khả năng tự học, giải quyết vấn đề và thích nghi công nghệ mới. Trình độ tiếng Nhật tương đương JLPT N3.",
+
+        "detail": {
+          "office": {
+            "title": "Công cụ văn phòng",
+            "word": "Word",
+            "excel": "Excel",
+            "powerpoint": "PowerPoint"
+          },
+
+          "languages": {
+            "title": "Ngôn ngữ",
+            "vi": "Tiếng Việt",
+            "en": "Tiếng Anh",
+            "jp": "Tiếng Nhật"
+          }
+        }
       }
     }
   },
@@ -108,6 +162,7 @@
     "fullView": "Xem ảnh đầy đủ",
     "categories": {
       "all": "Tất cả",
+      "game": "Game Art",
       "character": "Nhân vật",
       "background": "Bối cảnh",
       "sketch": "Phác thảo / Line"
@@ -126,6 +181,9 @@
 
   "dev": {
     "projects": {
+      "game": {
+        "desc": "Game bullet hell 2D lấy cảm hứng từ Touhou Project và Just Shapes & Beats, tập trung vào né đạn, di chuyển chính xác và lối chơi đề cao kỹ năng."
+      },
       "weatherchill": {
         "desc": "WeatherChill là ứng dụng web thư giãn kết hợp âm nhạc, hình ảnh và hiệu ứng chuyển động."
       },

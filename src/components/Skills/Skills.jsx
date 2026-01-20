@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FaCode, FaEllipsisH, FaPaintBrush, FaPalette } from "react-icons/fa";
+import { IoGameControllerSharp } from "react-icons/io5";
+
 import { MdDesignServices } from "react-icons/md";
 import styles from "./Skills.module.css";
 import TechnologyModal from "./TechnologyModal";
@@ -8,6 +10,7 @@ import DrawModal from "./DrawModal";
 import DesignModal from "./DesignModal";
 import UIDesignModal from "./UIDesignModal";
 import { useTranslation } from "react-i18next";
+import GameModal from "./GameModal";
 
 function Skills() {
   const { t } = useTranslation();
@@ -25,6 +28,10 @@ function Skills() {
     {
       id: "graphic",
       icon: <FaPaintBrush />,
+    },
+    {
+      id: "game",
+      icon: <IoGameControllerSharp />,
     },
     {
       id: "web",
@@ -60,6 +67,7 @@ function Skills() {
       {selectedSkill === "drawing" && <DrawModal isOpen onClose={() => setSelectedSkill(null)} />}
       {selectedSkill === "uiux" && <UIDesignModal isOpen onClose={() => setSelectedSkill(null)} />}
       {selectedSkill === "graphic" && <DesignModal isOpen onClose={() => setSelectedSkill(null)} />}
+      {selectedSkill === "game" && <GameModal isOpen onClose={() => setSelectedSkill(null)} />}
       {selectedSkill === "web" && <TechnologyModal isOpen onClose={() => setSelectedSkill(null)} />}
       {selectedSkill === "others" && <OrtherModal isOpen onClose={() => setSelectedSkill(null)} />}
     </section>

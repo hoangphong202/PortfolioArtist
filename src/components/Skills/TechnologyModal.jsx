@@ -6,8 +6,10 @@ import styles from "./TechnologyModal.module.css";
 import { VscVscode } from "react-icons/vsc";
 import jv from "../../assets/logo/code/jv.png";
 import ij from "../../assets/logo/code/ij.png";
+import { useTranslation } from "react-i18next";
 
 function TechnologyModal({ isOpen, onClose }) {
+  const { t } = useTranslation();
   if (!isOpen) return null;
 
   return (
@@ -19,7 +21,7 @@ function TechnologyModal({ isOpen, onClose }) {
           <div className={styles.modalHeader}>
             <div className={styles.techTitle}>
               <FaCode className={styles.techIcon} />
-              <h2>Technology</h2>
+              <h2>{t("skills.items.web.title")}</h2>
             </div>
           </div>
         </div>

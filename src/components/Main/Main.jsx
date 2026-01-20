@@ -27,7 +27,7 @@ function Main() {
         <p className={styles.description}>{t("main.desc2")}</p>
 
         <div className={styles.btn_container}>
-          <Btn onClick={() => window.open("https://drive.google.com/file/d/1kkaaRBwSVevlXdZDWZ1ChIv68qbiKGjQ/view", "_blank")}>{t("main.viewCV")}</Btn>
+          <Btn onClick={() => window.open("https://drive.google.com/file/d/1Mc_mcCzo6Bla98K5YB5vr-sExifVVQyw/view", "_blank")}>{t("main.viewCV")}</Btn>
         </div>
       </div>
 

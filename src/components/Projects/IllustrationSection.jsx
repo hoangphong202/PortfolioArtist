@@ -3,6 +3,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "./IllustrationSection.module.css";
 import { useTranslation } from "react-i18next";
 
+//game
+import g1 from "../../assets/illustrations/game/1.png";
+import g2 from "../../assets/illustrations/game/2.png";
+import g3 from "../../assets/illustrations/game/3.png";
+import g4 from "../../assets/illustrations/game/4.png";
+import g5 from "../../assets/illustrations/game/5.png";
+import g6 from "../../assets/illustrations/game/6.png";
+import g7 from "../../assets/illustrations/game/7.png";
+
 // Character
 import char1 from "../../assets/illustrations/character/1.png";
 import char2 from "../../assets/illustrations/character/2.png";
@@ -42,7 +51,7 @@ import line2 from "../../assets/illustrations/line/2.png";
 import line3 from "../../assets/illustrations/line/3.png";
 import line4 from "../../assets/illustrations/line/4.png";
 import line5 from "../../assets/illustrations/line/5.png";
-import line6 from "../../assets/illustrations/line/6.png";
+// import line6 from "../../assets/illustrations/line/6.png";
 import line7 from "../../assets/illustrations/line/7.png";
 import line8 from "../../assets/illustrations/line/8.png";
 import line9 from "../../assets/illustrations/line/9.png";
@@ -50,11 +59,18 @@ import line10 from "../../assets/illustrations/line/10.png";
 import line11 from "../../assets/illustrations/line/11.png";
 import line12 from "../../assets/illustrations/line/12.png";
 import line13 from "../../assets/illustrations/line/13.png";
-import line14 from "../../assets/illustrations/line/14.png";
 import line15 from "../../assets/illustrations/line/15.png";
 import line16 from "../../assets/illustrations/line/16.png";
 
 const illustrations = [
+  { src: g1, category: "game" },
+  { src: g2, category: "game" },
+  { src: g3, category: "game" },
+  { src: g4, category: "game" },
+  { src: g5, category: "game" },
+  { src: g6, category: "game" },
+  { src: g7, category: "game" },
+
   { src: char6, category: "character" },
   { src: char3, category: "character" },
   { src: char15, category: "character" },
@@ -74,6 +90,7 @@ const illustrations = [
   { src: bg1, category: "background" },
   { src: bg13, category: "background" },
   { src: bg14, category: "background" },
+  { src: bg8, category: "background" },
   { src: bg5, category: "background" },
   { src: bg11, category: "background" },
   { src: bg2, category: "background" },
@@ -82,7 +99,6 @@ const illustrations = [
   { src: bg4, category: "background" },
   { src: bg6, category: "background" },
   { src: bg7, category: "background" },
-  { src: bg8, category: "background" },
   { src: bg9, category: "background" },
   { src: bg10, category: "background" },
 
@@ -99,11 +115,11 @@ const illustrations = [
   { src: line11, category: "sketch" },
   { src: line12, category: "sketch" },
   { src: line13, category: "sketch" },
-  { src: line14, category: "sketch" },
+  // { src: line14, category: "sketch" },
   { src: line15, category: "sketch" },
 ];
 
-const categoryKeys = ["all", "character", "background", "sketch"];
+const categoryKeys = ["all", "game", "character", "background", "sketch"];
 
 const IllustrationSection = () => {
   const { t } = useTranslation();

@@ -36,15 +36,53 @@
     "items": {
       "drawing": {
         "title": "Drawing / Illustration",
-        "description": "I enjoy drawing anime characters and backgrounds, focusing on color harmony and mood. This hobby strengthens my creativity and visual sense, which supports my design and front-end work."
+        "description": "I enjoy drawing anime characters and backgrounds, focusing on color harmony and mood. This hobby strengthens my creativity and visual sense, which supports my design and front-end work.",
+        "detail": {
+          "drawing": {
+            "title": "Drawing Applications",
+            "csp": "Clip Studio Paint",
+            "photoshop": "Photoshop",
+            "medibang": "MediBang Paint",
+            "ibis": "ibisPaint"
+          },
+          "animation": {
+            "title": "Animation / Motion",
+            "live2d": "Live2D",
+            "spine": "Spine",
+            "aftereffects": "After Effects"
+          }
+        }
       },
       "uiux": {
         "title": "UI/UX Design",
-        "description": "With both design sense and coding skills, I can transform UI/UX ideas into interactive, responsive web interfaces. I focus on building designs that are visually appealing, accessible, and consistent across devices."
+        "description": "With both design sense and coding skills, I can transform UI/UX ideas into interactive, responsive web interfaces. I focus on building designs that are visually appealing, accessible, and consistent across devices.",
+        "tools": "Tools"
       },
       "graphic": {
         "title": "Graphic Design",
-        "description": "I have experience designing posters and visual content for clubs and events. I focus on creating clean, aesthetic designs that clearly convey messages and enhance visual appeal."
+        "description": "I have experience designing posters and visual content for clubs and events. I focus on creating clean, aesthetic designs that clearly convey messages and enhance visual appeal.",
+        "detail": {
+          "design": {
+            "title": "Design Applications",
+            "figma": "Figma",
+            "canva": "Canva",
+            "picsart": "PicsArt",
+            "csp": "Clip Studio Paint",
+            "photoshop": "Photoshop"
+          },
+          "motion": {
+            "title": "Motion & Audio Design",
+            "avee": "Avee Player",
+            "alight": "Alight Motion",
+            "capcut": "CapCut",
+            "aftereffects": "After Effects"
+          }
+        }
+      },
+      "game": {
+        "title": "Game Art / Unity",
+        "description": "Experience creating 2D game art including characters, bullet visuals, and visual effects. Familiar with implementing assets and basic gameplay logic in Unity to support clear and readable gameplay.",
+        "tools": "Tools"
       },
       "web": {
         "title": "Web Developer",
@@ -52,7 +90,21 @@
       },
       "others": {
         "title": "Others",
-        "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: equivalent JLPT N3."
+        "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: equivalent JLPT N3.",
+        "detail": {
+          "office": {
+            "title": "Office Tools",
+            "word": "Word",
+            "excel": "Excel",
+            "powerpoint": "PowerPoint"
+          },
+          "languages": {
+            "title": "Languages",
+            "vi": "Vietnamese",
+            "en": "English",
+            "jp": "Japanese"
+          }
+        }
       }
     }
   },
@@ -108,6 +160,7 @@
     "fullView": "Full view illustration",
     "categories": {
       "all": "All",
+      "game": "Game Art",
       "character": "Character",
       "background": "Background",
       "sketch": "Sketch / Line"
@@ -126,6 +179,9 @@
 
   "dev": {
     "projects": {
+      "game": {
+        "desc": "A 2D bullet hell game inspired by Touhou Project and Just Shapes & Beats, focusing on precise movement, bullet dodging, and skill-based gameplay."
+      },
       "weatherchill": {
         "desc": "WeatherChill is a relaxing web app that blends music, visuals, and motion effects to create a chill and immersive experience."
       },

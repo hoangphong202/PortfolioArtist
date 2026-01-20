@@ -3,6 +3,12 @@ import { useTranslation } from "react-i18next";
 import DevModal from "./DevModal";
 import styles from "./DevSection.module.css";
 
+import g1 from "../../assets/projects/game/g1.png";
+import g2 from "../../assets/projects/game/g2.png";
+import g3 from "../../assets/projects/game/g3.png";
+import g4 from "../../assets/projects/game/g4.png";
+import g5 from "../../assets/projects/game/g5.png";
+
 import wc1 from "../../assets/projects/weatherchill/1.png";
 import wc2 from "../../assets/projects/weatherchill/2.png";
 import wc3 from "../../assets/projects/weatherchill/3.png";
@@ -27,6 +33,13 @@ const DevSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+      title: "Game bullet hell",
+      descKey: "dev.projects.game.desc",
+      tags: ["Unity", "C#"],
+      images: [g1, g2, g3, g4, g5],
+      link: "https://hoangphong202.github.io/BULLET-HELL",
+    },
     {
       title: "WeatherChill",
       descKey: "dev.projects.weatherchill.desc",
