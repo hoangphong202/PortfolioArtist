@@ -8,6 +8,8 @@ import g2 from "../../assets/projects/game/g2.png";
 import g3 from "../../assets/projects/game/g3.png";
 import g4 from "../../assets/projects/game/g4.png";
 import g5 from "../../assets/projects/game/g5.png";
+import g6 from "../../assets/projects/game/g6.png";
+import g7 from "../../assets/projects/game/g7.png";
 
 import wc1 from "../../assets/projects/weatherchill/1.png";
 import wc2 from "../../assets/projects/weatherchill/2.png";
@@ -37,7 +39,7 @@ const DevSection = () => {
       title: "Game bullet hell",
       descKey: "dev.projects.game.desc",
       tags: ["Unity", "C#"],
-      images: [g1, g2, g3, g4, g5],
+      images: [g1, g2, g3, g4, g5, g6, g7],
       link: "https://hoangphong202.github.io/BULLET-HELL",
     },
     {
