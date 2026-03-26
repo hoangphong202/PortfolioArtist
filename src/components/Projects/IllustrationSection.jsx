@@ -28,6 +28,9 @@ import char12 from "../../assets/illustrations/character/12.png";
 import char13 from "../../assets/illustrations/character/13.png";
 import char14 from "../../assets/illustrations/character/14.png";
 import char15 from "../../assets/illustrations/character/15.png";
+import char16 from "../../assets/illustrations/character/16.png";
+import char17 from "../../assets/illustrations/character/17.png";
+import char18 from "../../assets/illustrations/character/18.png";
 
 // Background
 import bg1 from "../../assets/illustrations/background/1.png";
@@ -44,6 +47,7 @@ import bg11 from "../../assets/illustrations/background/11.jpg";
 import bg12 from "../../assets/illustrations/background/12.jpg";
 import bg13 from "../../assets/illustrations/background/13.png";
 import bg14 from "../../assets/illustrations/background/14.png";
+import bg15 from "../../assets/illustrations/background/15.png";
 
 // Sketch / Line
 import line1 from "../../assets/illustrations/line/1.png";
@@ -61,6 +65,7 @@ import line12 from "../../assets/illustrations/line/12.png";
 import line13 from "../../assets/illustrations/line/13.png";
 import line15 from "../../assets/illustrations/line/15.png";
 import line16 from "../../assets/illustrations/line/16.png";
+import line14 from "../../assets/illustrations/line/14.png";
 
 const illustrations = [
   { src: g1, category: "game" },
@@ -71,10 +76,13 @@ const illustrations = [
   { src: g6, category: "game" },
   { src: g7, category: "game" },
 
+  { src: char17, category: "character" },
+  { src: char18, category: "character" },
+  { src: char16, category: "character" },
+  { src: char13, category: "character" },
+  { src: char15, category: "character" },
   { src: char6, category: "character" },
   { src: char3, category: "character" },
-  { src: char15, category: "character" },
-  { src: char13, category: "character" },
   { src: char8, category: "character" },
   { src: char1, category: "character" },
   { src: char2, category: "character" },
@@ -90,6 +98,7 @@ const illustrations = [
   { src: bg1, category: "background" },
   { src: bg13, category: "background" },
   { src: bg14, category: "background" },
+  { src: bg15, category: "background" },
   { src: bg8, category: "background" },
   { src: bg5, category: "background" },
   { src: bg11, category: "background" },
@@ -102,14 +111,15 @@ const illustrations = [
   { src: bg9, category: "background" },
   { src: bg10, category: "background" },
 
-  { src: line1, category: "sketch" },
+  { src: line14, category: "sketch" },
+  // { src: line1, category: "sketch" },
   { src: line2, category: "sketch" },
-  { src: line3, category: "sketch" },
+  // { src: line3, category: "sketch" },
+  { src: line8, category: "sketch" },
   { src: line4, category: "sketch" },
   { src: line5, category: "sketch" },
   { src: line16, category: "sketch" },
   { src: line7, category: "sketch" },
-  { src: line8, category: "sketch" },
   { src: line9, category: "sketch" },
   { src: line10, category: "sketch" },
   { src: line11, category: "sketch" },
@@ -119,7 +129,7 @@ const illustrations = [
   { src: line15, category: "sketch" },
 ];
 
-const categoryKeys = ["all", "game", "character", "background", "sketch"];
+const categoryKeys = ["all", "character", "background", "sketch", "game"];
 
 const IllustrationSection = () => {
   const { t } = useTranslation();

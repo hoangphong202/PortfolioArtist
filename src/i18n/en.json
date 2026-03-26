@@ -12,20 +12,26 @@
     "hello": "Hello, I'm",
     "name": "Hoang Trung Phong",
     "im": "I'm a",
-    "roles": ["2D Artist", "Artist with IT Background"],
-    "desc1": "I’m a 2D Artist specializing in anime-style illustration. I am currently learning how to adapt my artwork for game production and eager to grow in a professional game art environment.",
-    "desc2": "I have a Japanese language proficiency equivalent to JLPT N3 and am currently continuing to improve my Japanese communication skills.",
+    "roles": ["2D Anime Illustrator", "Artist with an IT background"],
+    "desc1": "I am a 2D artist specializing in anime-style illustration and character design, focusing on harmonious colors and expressive characters.",
+    "desc2": "I have Japanese proficiency at JLPT N3 and am continuing to improve my communication skills. I aim to develop my abilities in a professional studio environment and contribute to high-quality anime illustration projects.",
     "viewCV": "View CV"
   },
 
   "about": {
-    "title": "About Me",
+    "hardSkillsTitle": "Hard Skills",
+    "softSkillsTitle": "Soft Skills",
+    "hardSkills": ["Photoshop", "Illustrator", "Clip Studio Paint", "2D Animation", "Digital Art", "UI Design"],
+    "softSkills": ["Teamwork", "Communication", "Problem Solving", "Time Management", "Self-learning"],
+
+    "title": "ABOUT ME",
     "hello": "Hello, I’m",
     "name": "Hoang Trung Phong",
-    "p1": "I am a 2D artist specializing in anime-style illustration. I studied Information Technology at Ho Chi Minh City University of Technology (HUTECH), Vietnam–Japan Institute of Technology, which has provided me with a strong logical mindset, discipline, and the ability to work efficiently within digital production workflows.",
-    "p2": "I have experience using digital art and design tools to create clean, appealing visuals, and I continuously work on improving my artistic skills through practice and personal projects.",
-    "p3": "I always strive to learn, refine my artistic techniques, and develop creative thinking to produce expressive and high-quality visual artwork.",
-    "p4": "I currently have a Japanese level equivalent to JLPT N3 and aim to work in a professional environment in Japan, where I can further develop my art skills and contribute value to the team.",
+    "p1": "I am a <1>2D Artist</1> pursuing <1>anime-style</1> illustration. I studied Information Technology at Ho Chi Minh City University of Technology <1>(HUTECH)</1>, Vietnam–Japan Institute of Technology. My <1>IT background</1> provides me with logical thinking, discipline, and the ability to work efficiently within digital workflows.",
+    "p2": "I focus on building artworks with clear linework, well-structured composition, and a strong sense of refinement in every detail.",
+    "p3": "I aim to create works that are not only technically accurate but also carry depth in emotion and aesthetics.",
+    "p4": "Currently, I hold a <1>JLPT N3</1> level in Japanese and aspire to work in a professional Japanese environment to further develop my skills and contribute long-term value to the team.",
+
     "viewCV": "View CV"
   },
 
@@ -90,7 +96,7 @@
       },
       "others": {
         "title": "Others",
-        "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: equivalent JLPT N3.",
+        "description": "Good at teamwork, communication, and time management. Skilled in problem-solving and adapting to new technologies. Japanese level: JLPT N3.",
         "detail": {
           "office": {
             "title": "Office Tools",
@@ -110,7 +116,7 @@
   },
 
   "activities": {
-    "title": "Activities",
+    "title": "ACTIVITIES",
     "description": "A selection of my extracurricular activities and contributions",
     "view": "View",
 
