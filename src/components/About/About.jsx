@@ -87,7 +87,7 @@ function About() {
           </div>
 
           <div className={styles.btn_wrapper}>
-            <button className={styles.cv_button} onClick={() => window.open("LINK_CV_CUA_BAN", "_blank")}>
+            <button className={styles.cv_button} onClick={() => window.open("https://drive.google.com/file/d/1g7ynzR6t-wbNM1lx47OxykZ9mGMyY309/view?usp=drive_link", "_blank")}>
               {t("about.viewCV")}
             </button>
           </div>
