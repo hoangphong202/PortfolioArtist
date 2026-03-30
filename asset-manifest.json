@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioArtist/static/css/main.40986086.css",
-    "main.js": "/PortfolioArtist/static/js/main.f8967302.js",
+    "main.js": "/PortfolioArtist/static/js/main.e2829077.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.0016c3a424fe52697363.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.3fe5452efb8ab9f31137.png",
@@ -19,7 +19,7 @@
     "static/media/14.png": "/PortfolioArtist/static/media/14.e8c75bf2f3ee35793ae9.png",
     "static/media/17.png": "/PortfolioArtist/static/media/17.fe6b72c2325902954626.png",
     "static/media/12.png": "/PortfolioArtist/static/media/12.64da2ccbdf31c1a22989.png",
-    "static/media/19.png": "/PortfolioArtist/static/media/19.80f19e5f5099b5dc6eb5.png",
+    "static/media/19.png": "/PortfolioArtist/static/media/19.5263b4c2a8f312c3fd1a.png",
     "static/media/11.png": "/PortfolioArtist/static/media/11.250ff4fe23f29f2cf7ce.png",
     "static/media/7.jpg": "/PortfolioArtist/static/media/7.67ce82a04aa0033c15f7.jpg",
     "static/media/g3.png": "/PortfolioArtist/static/media/g3.22de5c5c4e8ce928860d.png",
@@ -64,11 +64,11 @@
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
     "main.40986086.css.map": "/PortfolioArtist/static/css/main.40986086.css.map",
-    "main.f8967302.js.map": "/PortfolioArtist/static/js/main.f8967302.js.map",
+    "main.e2829077.js.map": "/PortfolioArtist/static/js/main.e2829077.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40986086.css",
-    "static/js/main.f8967302.js"
+    "static/js/main.e2829077.js"
   ]
 }
