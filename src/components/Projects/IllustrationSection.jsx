@@ -80,8 +80,8 @@ const illustrations = [
 
   { src: char17, category: "character" },
   { src: char19, category: "character" },
-  { src: char18, category: "character" },
   { src: char20, category: "character" },
+  { src: char18, category: "character" },
   { src: char16, category: "character" },
   { src: char13, category: "character" },
   { src: char15, category: "character" },
