@@ -32,6 +32,7 @@ import char16 from "../../assets/illustrations/character/16.png";
 import char17 from "../../assets/illustrations/character/17.png";
 import char18 from "../../assets/illustrations/character/18.png";
 import char19 from "../../assets/illustrations/character/19.png";
+import char20 from "../../assets/illustrations/character/20.png";
 
 // Background
 import bg1 from "../../assets/illustrations/background/1.png";
@@ -80,6 +81,7 @@ const illustrations = [
   { src: char17, category: "character" },
   { src: char19, category: "character" },
   { src: char18, category: "character" },
+  { src: char20, category: "character" },
   { src: char16, category: "character" },
   { src: char13, category: "character" },
   { src: char15, category: "character" },
