@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioArtist/static/css/main.40986086.css",
-    "main.js": "/PortfolioArtist/static/js/main.cbb884b0.js",
+    "main.js": "/PortfolioArtist/static/js/main.f9ada211.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.0016c3a424fe52697363.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.3fe5452efb8ab9f31137.png",
@@ -15,7 +15,7 @@
     "static/media/1.png": "/PortfolioArtist/static/media/1.bb9795cfbba41decaf70.png",
     "static/media/13.png": "/PortfolioArtist/static/media/13.8ebbf50cff93ae27e959.png",
     "static/media/15.png": "/PortfolioArtist/static/media/15.72870c917e510ada8554.png",
-    "static/media/20.png": "/PortfolioArtist/static/media/20.eb7348bcc85251df6a78.png",
+    "static/media/20.png": "/PortfolioArtist/static/media/20.128073e3af1cc4b4627e.png",
     "static/media/16.png": "/PortfolioArtist/static/media/16.44d84ce45bbbdee84f84.png",
     "static/media/14.png": "/PortfolioArtist/static/media/14.e8c75bf2f3ee35793ae9.png",
     "static/media/17.png": "/PortfolioArtist/static/media/17.fe6b72c2325902954626.png",
@@ -65,11 +65,11 @@
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
     "main.40986086.css.map": "/PortfolioArtist/static/css/main.40986086.css.map",
-    "main.cbb884b0.js.map": "/PortfolioArtist/static/js/main.cbb884b0.js.map",
+    "main.f9ada211.js.map": "/PortfolioArtist/static/js/main.f9ada211.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40986086.css",
-    "static/js/main.cbb884b0.js"
+    "static/js/main.f9ada211.js"
   ]
 }
