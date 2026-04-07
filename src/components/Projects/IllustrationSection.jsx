@@ -50,6 +50,7 @@ import bg12 from "../../assets/illustrations/background/12.jpg";
 import bg13 from "../../assets/illustrations/background/13.png";
 import bg14 from "../../assets/illustrations/background/14.png";
 import bg15 from "../../assets/illustrations/background/15.png";
+import bg16 from "../../assets/illustrations/background/16.png";
 
 // Sketch / Line
 import line1 from "../../assets/illustrations/line/1.png";
@@ -99,6 +100,7 @@ const illustrations = [
   { src: char12, category: "character" },
   { src: char14, category: "character" },
 
+  { src: bg16, category: "background" },
   { src: bg1, category: "background" },
   { src: bg13, category: "background" },
   { src: bg14, category: "background" },
