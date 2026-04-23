@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioArtist/static/css/main.40986086.css",
-    "main.js": "/PortfolioArtist/static/js/main.f9ada211.js",
+    "main.js": "/PortfolioArtist/static/js/main.d9b666d4.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.0016c3a424fe52697363.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.3fe5452efb8ab9f31137.png",
@@ -39,6 +39,7 @@
     "static/media/5.jpg": "/PortfolioArtist/static/media/5.fc04d2706ae21ec0262d.jpg",
     "static/media/g1.png": "/PortfolioArtist/static/media/g1.6462f9299506dfd20cd9.png",
     "static/media/1p.png": "/PortfolioArtist/static/media/1p.8956b5ac713822bfe34c.png",
+    "static/media/18.gif": "/PortfolioArtist/static/media/18.f3fd8fe668ee938b252b.gif",
     "static/media/g6.png": "/PortfolioArtist/static/media/g6.b5011b84aa08dfc1ed99.png",
     "static/media/fa-solid-900.woff2": "/PortfolioArtist/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
     "static/media/fa-brands-400.woff2": "/PortfolioArtist/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
@@ -46,6 +47,7 @@
     "static/media/g7.png": "/PortfolioArtist/static/media/g7.ee6a0554c97548b6c6a6.png",
     "static/media/av.png": "/PortfolioArtist/static/media/av.a914485f31be1e8a3ad4.png",
     "static/media/w.png": "/PortfolioArtist/static/media/w.043be2f793c077f83813.png",
+    "static/media/17.gif": "/PortfolioArtist/static/media/17.55141733099de6f260c8.gif",
     "static/media/ij.png": "/PortfolioArtist/static/media/ij.4478289e0307a35abcdb.png",
     "static/media/12.jpg": "/PortfolioArtist/static/media/12.87bd977687a6ccc98c6c.jpg",
     "static/media/e.png": "/PortfolioArtist/static/media/e.9e88926a83aff63761e0.png",
@@ -65,11 +67,11 @@
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
     "main.40986086.css.map": "/PortfolioArtist/static/css/main.40986086.css.map",
-    "main.f9ada211.js.map": "/PortfolioArtist/static/js/main.f9ada211.js.map",
+    "main.d9b666d4.js.map": "/PortfolioArtist/static/js/main.d9b666d4.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40986086.css",
-    "static/js/main.f9ada211.js"
+    "static/js/main.d9b666d4.js"
   ]
 }
