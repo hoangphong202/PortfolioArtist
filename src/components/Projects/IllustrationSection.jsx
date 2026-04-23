@@ -53,6 +53,8 @@ import bg15 from "../../assets/illustrations/background/15.png";
 import bg16 from "../../assets/illustrations/background/16.png";
 
 // Sketch / Line
+import line17 from "../../assets/illustrations/line/17.gif";
+import line18 from "../../assets/illustrations/line/18.gif";
 import line1 from "../../assets/illustrations/line/1.png";
 import line2 from "../../assets/illustrations/line/2.png";
 import line3 from "../../assets/illustrations/line/3.png";
@@ -117,6 +119,8 @@ const illustrations = [
   { src: bg9, category: "background" },
   { src: bg10, category: "background" },
 
+  { src: line17, category: "sketch" },
+  { src: line18, category: "sketch" },
   { src: line14, category: "sketch" },
   // { src: line1, category: "sketch" },
   { src: line2, category: "sketch" },
