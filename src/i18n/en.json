@@ -185,6 +185,9 @@
 
   "dev": {
     "projects": {
+      "mywallpaper": {
+        "desc": "A website showcasing my original anime wallpapers. Users can discover, search, and view wallpapers by category through a modern, user-friendly interface optimized for both desktop and mobile devices."
+      },
       "game": {
         "desc": "A 2D bullet hell game inspired by Touhou Project and Just Shapes & Beats, focusing on precise movement, bullet dodging, and skill-based gameplay."
       },

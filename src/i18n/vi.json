@@ -186,6 +186,9 @@
 
   "dev": {
     "projects": {
+      "mywallpaper": {
+        "desc": "Website trưng bày bộ sưu tập hình nền anime do tôi sáng tác. Người dùng có thể khám phá, tìm kiếm và xem hình nền theo từng chủ đề với giao diện hiện đại, trực quan và tương thích trên nhiều thiết bị."
+      },
       "game": {
         "desc": "Game bullet hell 2D lấy cảm hứng từ Touhou Project và Just Shapes & Beats, tập trung vào né đạn, di chuyển chính xác và lối chơi đề cao kỹ năng."
       },

@@ -3,6 +3,9 @@ import { useTranslation } from "react-i18next";
 import DevModal from "./DevModal";
 import styles from "./DevSection.module.css";
 
+import m1 from "../../assets/projects/MyWallpaper/1.png";
+import m2 from "../../assets/projects/MyWallpaper/2.png";
+
 import g1 from "../../assets/projects/game/g1.png";
 import g2 from "../../assets/projects/game/g2.png";
 import g3 from "../../assets/projects/game/g3.png";
@@ -35,6 +38,14 @@ const DevSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+      title: "Website MyWallpaper",
+      descKey: "dev.projects.mywallpaper.desc",
+      tags: ["HTML", "CSS", "ReactJS", "Vite", "Cloudinary"],
+      images: [m1, m2],
+      githubFE: "https://github.com/hoangphong202/MyWallpaper",
+      link: "https://hoangphong202.github.io/MyWallpaper/",
+    },
     {
       title: "Game bullet hell",
       descKey: "dev.projects.game.desc",
