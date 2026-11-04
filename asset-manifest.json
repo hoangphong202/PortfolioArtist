@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioArtist/static/css/main.40986086.css",
-    "main.js": "/PortfolioArtist/static/js/main.9111f967.js",
+    "main.css": "/PortfolioArtist/static/css/main.8105be2d.css",
+    "main.js": "/PortfolioArtist/static/js/main.c772977e.js",
     "static/js/453.fb5dc88f.chunk.js": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js",
     "static/media/4.png": "/PortfolioArtist/static/media/4.0016c3a424fe52697363.png",
     "static/media/6.png": "/PortfolioArtist/static/media/6.3fe5452efb8ab9f31137.png",
@@ -32,6 +32,7 @@
     "static/media/am.png": "/PortfolioArtist/static/media/am.447dbd3ea0d5f42c968e.png",
     "static/media/g5.png": "/PortfolioArtist/static/media/g5.c610c417867ce1331d17.png",
     "static/media/g4.png": "/PortfolioArtist/static/media/g4.31d2c7afb1ae7b8fed60.png",
+    "static/media/fullbridge.png": "/PortfolioArtist/static/media/fullbridge.35b6cd33fa3149171677.png",
     "static/media/1.jpg": "/PortfolioArtist/static/media/1.a31bd54e7186c151efad.jpg",
     "static/media/8.jpg": "/PortfolioArtist/static/media/8.380d5699787b5e3c50e9.jpg",
     "static/media/2.jpg": "/PortfolioArtist/static/media/2.9b5412e1056fa1da8d14.jpg",
@@ -52,6 +53,7 @@
     "static/media/ij.png": "/PortfolioArtist/static/media/ij.4478289e0307a35abcdb.png",
     "static/media/12.jpg": "/PortfolioArtist/static/media/12.87bd977687a6ccc98c6c.jpg",
     "static/media/e.png": "/PortfolioArtist/static/media/e.9e88926a83aff63761e0.png",
+    "static/media/ohstem.jpg": "/PortfolioArtist/static/media/ohstem.6b2b7addbff590ba84fa.jpg",
     "static/media/avatar.png": "/PortfolioArtist/static/media/avatar.8b6b3afe17ff47a3d930.png",
     "static/media/Cv.png": "/PortfolioArtist/static/media/Cv.f79d38509c96cca4937e.png",
     "static/media/mp.png": "/PortfolioArtist/static/media/mp.1b54cc457a9ec41690dd.png",
@@ -65,14 +67,15 @@
     "static/media/fa-regular-400.woff2": "/PortfolioArtist/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
     "static/media/unity.png": "/PortfolioArtist/static/media/unity.43a9b85934639cd3cbf0.png",
     "static/media/VN.png": "/PortfolioArtist/static/media/VN.0d9462577d99ff8e24ff.png",
+    "static/media/urban.png": "/PortfolioArtist/static/media/urban.05e04bc3aef45f495154.png",
     "static/media/fa-v4compatibility.woff2": "/PortfolioArtist/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/PortfolioArtist/index.html",
-    "main.40986086.css.map": "/PortfolioArtist/static/css/main.40986086.css.map",
-    "main.9111f967.js.map": "/PortfolioArtist/static/js/main.9111f967.js.map",
+    "main.8105be2d.css.map": "/PortfolioArtist/static/css/main.8105be2d.css.map",
+    "main.c772977e.js.map": "/PortfolioArtist/static/js/main.c772977e.js.map",
     "453.fb5dc88f.chunk.js.map": "/PortfolioArtist/static/js/453.fb5dc88f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40986086.css",
-    "static/js/main.9111f967.js"
+    "static/css/main.8105be2d.css",
+    "static/js/main.c772977e.js"
   ]
 }
