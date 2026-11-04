@@ -2,6 +2,7 @@
   "nav": {
     "home": "Trang chủ",
     "about": "Giới thiệu",
+    "experience": "Kinh nghiệm",
     "skills": "Kỹ năng",
     "activities": "Hoạt động",
     "projects": "Dự án",
@@ -17,6 +18,57 @@
     "desc2": "Tôi có trình độ tiếng Nhật JLPT N3 và đang tiếp tục cải thiện khả năng giao tiếp. Tôi mong muốn phát triển kỹ năng trong môi trường studio chuyên nghiệp và tham gia vào các dự án minh họa anime.",
     "viewCV": "Xem CV"
   },
+
+
+  "experience": {
+  "title": "KINH NGHIỆM LÀM VIỆC",
+  "project": "DỰ ÁN",
+  "responsibilities": "CÔNG VIỆC CHÍNH",
+  "skills": "KỸ NĂNG",
+  "selectedWork": "SẢN PHẨM TIÊU BIỂU",
+  "workImageAlt": "Sản phẩm {{number}} tại {{company}}",
+  "items": {
+    "fullbridge": {
+      "year": "2025 — HIỆN TẠI",
+      "role": "DPP DESIGNER",
+      "description": "Phụ trách chuẩn bị và chỉnh sửa file thiết kế DPP, đảm bảo các file đáp ứng yêu cầu kỹ thuật trước khi đưa vào sản xuất.",
+      "responsibilities": [
+        "Chuẩn bị và chỉnh sửa file thiết kế theo yêu cầu",
+        "Xử lý artwork phục vụ quá trình sản xuất",
+        "Kiểm tra bố cục, font chữ và các thông số kỹ thuật",
+        "Xuất file theo đúng yêu cầu sản xuất",
+        "Chỉnh sửa file khi có yêu cầu cập nhật"
+      ]
+    },
+    "ohstem": {
+      "year": "08/2024 — 10/2024",
+      "role": "THỰC TẬP SINH FRONT-END",
+      "project": "Website quản lý cuộc thi",
+      "description": "Tham gia phát triển giao diện website, cải thiện trải nghiệm người dùng và sửa các lỗi giao diện trong quá trình phát triển.",
+      "responsibilities": [
+        "Xây dựng giao diện theo yêu cầu của dự án",
+        "Phát triển và chỉnh sửa các component React",
+        "Điều chỉnh bố cục để giao diện dễ sử dụng hơn",
+        "Kiểm tra và sửa lỗi giao diện",
+        "Phối hợp với các thành viên trong nhóm"
+      ]
+    },
+    "urban": {
+      "year": "04/2024 — 07/2024",
+      "role": "THỰC TẬP SINH FRONT-END / BACK-END",
+      "project": "Website quản lý nhân sự",
+      "description": "Tham gia phát triển website quản lý nhân sự, tập trung vào giao diện và hỗ trợ xử lý các chức năng phía máy chủ.",
+      "responsibilities": [
+        "Xây dựng giao diện quản lý nhân viên",
+        "Phát triển các chức năng thêm, sửa, xóa và xem dữ liệu",
+        "Kết nối API để trao đổi dữ liệu",
+        "Xây dựng chức năng tải ảnh lên",
+        "Hỗ trợ xử lý các chức năng Back-end",
+        "Làm việc cùng nhóm 6 thành viên"
+      ]
+    }
+  }
+},
 
   "about": {
     "hardSkillsTitle": "Kỹ năng chuyên môn",

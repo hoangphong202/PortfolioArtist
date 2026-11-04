@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "experience": "Work Experience",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
@@ -34,6 +35,59 @@
 
     "viewCV": "View CV"
   },
+
+
+
+"experience": {
+  "title": "WORK EXPERIENCE",
+  "project": "PROJECT",
+  "responsibilities": "KEY RESPONSIBILITIES",
+  "skills": "SKILLS",
+  "selectedWork": "SELECTED WORK",
+  "workImageAlt": "{{company}} work sample {{number}}",
+  "items": {
+    "fullbridge": {
+      "year": "2025 — PRESENT",
+      "role": "DPP DESIGNER",
+      "description": "Prepare and refine DPP design files, making sure they meet technical requirements before production.",
+      "responsibilities": [
+        "Prepare and edit design files for production",
+        "Handle artwork preparation for production",
+        "Check layouts, typography and technical details",
+        "Export files according to production requirements",
+        "Update design files based on feedback and revisions"
+      ]
+    },
+    "ohstem": {
+      "year": "AUG 2024 — OCT 2024",
+      "role": "FRONT-END DEVELOPER INTERN",
+      "project": "Competition Management Website",
+      "description": "Helped develop website interfaces, improve user experience and fix UI issues during development.",
+      "responsibilities": [
+        "Build website interfaces based on project requirements",
+        "Develop and update React components",
+        "Improve layouts and usability",
+        "Test and fix UI issues",
+        "Work with team members throughout development"
+      ]
+    },
+    "urban": {
+      "year": "APR 2024 — JUL 2024",
+      "role": "FRONT-END / BACK-END DEVELOPER INTERN",
+      "project": "Personnel Management Website",
+      "description": "Contributed to a personnel management website, mainly working on the front end while supporting back-end development.",
+      "responsibilities": [
+        "Build employee management interfaces",
+        "Implement functions to create, view, update and delete employee records",
+        "Connect APIs to handle data",
+        "Develop image upload functionality",
+        "Assist with back-end tasks",
+        "Collaborate with a team of six"
+      ]
+    }
+  }
+},
+
 
   "skills": {
     "title": "SKILLS",
